@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#UKRUAT2-35162] Don&#39;t play any system announcement when you try call to MSISDN with barring All Service in active status</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://extranet-sd.qvantel.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [UKRUAT2-35162]&nbsp;<a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-35162">Don&#39;t play any system announcement when you try call to MSISDN with barring All Service in active status</a>
+            <span class="subText">
+               Created: 29/01/22                   &nbsp;Updated: 01/06/22
+
+                                    &nbsp;Due: 01/03/22
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">B06 - Reopen</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://extranet-sd.qvantel.com/secure/BrowseProject.jspa?id=15547">Ukraine UAT2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Major
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="kyivstar_yberus" id="word_reporter_kyivstar_yberus" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_yberus">Yevgen Berus / Kyivstar (Inactive)</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="kyivstar_dvoznyy" id="word_assignee_kyivstar_dvoznyy" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_dvoznyy">Dmytro Voznyy / Kyivstar</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#ffffff" colspan="2">&nbsp;</td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-2899345-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            L1Triage_Done, L2Triage_Done, UAT2.Product                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://extranet-sd.qvantel.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    image-2022-01-29-11-12-32-851.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21861">
+                     UKRUAT2-21861                 </a>
+            </td>
+            <td>
+                Verify of usage Voice Call with Barri...
+            </td>
+            <td>
+                Passed
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21900">
+                     UKRUAT2-21900                 </a>
+            </td>
+            <td>
+                Verify of usage Voice Call with Barri...
+            </td>
+            <td>
+                Fail
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21925">
+                     UKRUAT2-21925                 </a>
+            </td>
+            <td>
+                Verify of usage Voice Call with Barri...
+            </td>
+            <td>
+                Fail
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21929">
+                     UKRUAT2-21929                 </a>
+            </td>
+            <td>
+                Verify of usage Voice Call with Barri...
+            </td>
+            <td>
+                Not Applicable
+            </td>
+        </tr>
+                                                <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Defect</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                Is Defect For
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21896">
+                     UKRUAT2-21896                 </a>
+            </td>
+            <td>
+                Verify of usage Voice Call with Barri...
+            </td>
+            <td>
+                Fail
+            </td>
+        </tr>
+            <tr>
+            <td>
+                Is Defect For
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21925">
+                     UKRUAT2-21925                 </a>
+            </td>
+            <td>
+                Verify of usage Voice Call with Barri...
+            </td>
+            <td>
+                Fail
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_15199-2899345-value" class="value" bgcolor="#ffffff" width="80%">    Medium
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UseCaseID:</b></td>
+                <td id="customfield_14463-2899345-value" class="value" bgcolor="#ffffff" width="80%">      5
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Environments:</b></td>
+                <td id="customfield_15801-2899345-value" class="value" bgcolor="#ffffff" width="80%">    Preprod 2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Testing Phase:</b></td>
+                <td id="customfield_15795-2899345-value" class="value" bgcolor="#ffffff" width="80%">    UAT Testing
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Linked Defects:</b></td>
+                <td id="customfield_13051-2899345-value" class="value" bgcolor="#ffffff" width="80%"><span style="padding-left:0px;" class="links-list">
+    
+                                            <a title="Verify of usage Voice Call with Barring All Services in &quot;Active&quot; status for Rate Plan &quot;IoT 250&quot;" class="
+									" href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21896">UKRUAT2-21896</a>&nbsp;
+                            <a title="Verify of usage Voice Call with Barring All Services in &quot;Active&quot; status for Rate Plan &quot;M2M Individual&quot;" class="
+									" href="https://extranet-sd.qvantel.com/browse/UKRUAT2-21925">UKRUAT2-21925</a>&nbsp;
+                    
+    
+</span>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Delivery Factory:</b></td>
+                <td id="customfield_15150-2899345-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_15150-field">
+        							<span>Kyivstar</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Product Type:</b></td>
+                <td id="customfield_15891-2899345-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_15891-field">
+        							<span>GSM Postpaid</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Project Priority:</b></td>
+                <td id="customfield_10151-2899345-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Product Segment:</b></td>
+                <td id="customfield_13565-2899345-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_13565-field">
+        							<span>B2B</span>			            </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>29.01.2022</p>
+
+<p><b>Preconditions:</b></p>
+
+<p>380981402192 Rate Plan IoT 250</p>
+
+<p>Balance = 2750 UAH</p>
+
+<p>Barring All Services - Active.</p>
+
+<p><b>Expected results:</b> </p>
+
+<p>For outgoing call (MO) will play system announcement "You can not make a call. The service is not allowed on your Operator".</p>
+
+<p>For incoming call (MT) will play system announcement "Incoming calls is not allowed on Operator".</p>
+
+<p><b>Actual results:</b></p>
+
+<p>For outgoing call (MO) - Call disconnects when trying to dial a number.</p>
+
+<p>For incoming call (MT) - Disconnects when trying to call.</p>
+
+<p><span class="image-wrap" style=""><img src="https://extranet-sd.qvantel.com/secure/attachment/725255/725255_image-2022-01-29-11-12-32-851.png" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-1727596"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="ericsson_apal" id="word_commented_ericsson_apal" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_apal">Atanu Pal / Ericsson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">07/02/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1727596"><td bgcolor="#ffffff">
+            <ol>
+	<li>(For outgoing call (MO) will play system announcement "You can not make a call. The service is not allowed on your Operator".) : This we have tested over the call and can see announcement ID has been sent from CS ( SDP+CCN). However, the end user has not heard the announcement as it is not configured on core side. <span class="nobr"><a href="mailto:dmytro.voznyy@kyivstar.net" class="external-link" target="_blank" rel="nofollow noopener">@dmytro.voznyy@kyivstar.net<sup><img class="rendericon" src="https://extranet-sd.qvantel.com/images/icons/mail_small.gif" height="12" width="13" align="absmiddle" alt="" border="0"/></sup></a></span>/[@anna.aslanyan@kyivstar.ua|mailto:anna.aslanyan@kyivstar.ua] / <span class="nobr"><a href="mailto:evgeniy.berus@kyivstar.net" class="external-link" target="_blank" rel="nofollow noopener">@evgeniy.berus@kyivstar.net<sup><img class="rendericon" src="https://extranet-sd.qvantel.com/images/icons/mail_small.gif" height="12" width="13" align="absmiddle" alt="" border="0"/></sup></a></span> : to check with core for this announcement ID configuration <span class="error">&#91;L1:7060 L2:7061 L3:7062&#93;</span></li>
+	<li><span class="error">&#91;For incoming call (MT) will play system announcement &quot;Incoming calls is not allowed on Operator&quot;&#93;</span> : Since there is no requirement present in the requirement page, when the MSISDN is not roaming and the MSISDN is having Voluntary suspension enable, Announcement IDs are not configured in CS.</li>
+</ol>
+
+
+<p><a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_yberus" class="user-hover" rel="kyivstar_yberus">Yevgen Berus / Kyivstar</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_aaslanyan" class="user-hover" rel="kyivstar_aaslanyan">Anna Aslanyan / Kyivstar</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_rkumar" class="user-hover" rel="ericsson_rkumar">Rohit H. Kumar / Ericsson</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_nvedaraman" class="user-hover" rel="ericsson_nvedaraman">Nagarajan Vedaraman / Ericsson</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_achekmezov" class="user-hover" rel="ericsson_achekmezov">Alexey Chekmezov / Ericsson</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_rxxkumar" class="user-hover" rel="ericsson_rxxkumar">Rohit XX Kumar / Ericsson</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_hverma" class="user-hover" rel="ericsson_hverma">Himanshu Verma / Ericsson</a> <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_dvoznyy" class="user-hover" rel="kyivstar_dvoznyy">Dmytro Voznyy / Kyivstar</a>   : FYI</p>
+        </td></tr>
+                <tr id="comment-header-1815183"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="kyivstar_isergeev" id="word_commented_kyivstar_isergeev" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_isergeev">Illya Sergeev / Kyivstar</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">27/05/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1815183"><td bgcolor="#ffffff">
+            <p>verified 0981423715 27/05/2022 04:54 PM/ Issue not resolved.</p>
+        </td></tr>
+                <tr id="comment-header-1818074"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="ericsson_saslam" id="word_commented_ericsson_saslam" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=ericsson_saslam">Salman Aslam / Ericsson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/06/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1818074"><td bgcolor="#ffffff">
+            <p>Hello <a href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_dvoznyy" class="user-hover" rel="kyivstar_dvoznyy">Dmytro Voznyy / Kyivstar</a></p>
+
+<p>Can you please engage the HLR SPOC here to confirm if the correct set of barrings are available at HLR and announcements are configured for them as well.</p>
+
+<p>Thanks</p>
+        </td></tr>
+            </table>
+Generated at Tue Jun 07 10:03:06 EEST 2022 by Illya Sergeev / Kyivstar using Jira 8.20.8#820008-sha1:881997c1ee10089dd24f9500963434332e60bc5b.
+
+</body>
+</html>

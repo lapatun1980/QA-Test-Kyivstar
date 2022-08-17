@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#UKRUAT2-25761] Verify Turbo button activation via MK/Fleet Mmgmnt for Any B2B plan for subs with &quot;Personal Service management&quot;</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://extranet-sd.qvantel.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://extranet-sd.qvantel.com/browse/UKRUAT2-2">Product B2B Postpaid Test Plan Phase 2</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://extranet-sd.qvantel.com/browse/UKRUAT2-2">UKRUAT2-2</a>)</span>
+                <h3 class="formtitle"><img src="https://extranet-sd.qvantel.com/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [UKRUAT2-25761]&nbsp;<a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-25761">Verify Turbo button activation via MK/Fleet Mmgmnt for Any B2B plan for subs with &quot;Personal Service management&quot;</a>
+            <span class="subText">
+               Created: 19/10/21                   &nbsp;Updated: 24/05/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Passed</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://extranet-sd.qvantel.com/secure/BrowseProject.jspa?id=15547">Ukraine UAT2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Normal
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="kyivstar_ovaleyka" id="word_reporter_kyivstar_ovaleyka" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_ovaleyka">Olga Valeyka / Kyivstar</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="kyivstar_isergeev" id="word_assignee_kyivstar_isergeev" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_isergeev">Illya Sergeev / Kyivstar</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#ffffff" colspan="2">&nbsp;</td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-2777968-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            11_10_21, Add-ons_UAT2, KS_Dependency, RPs1_UAT2, movedtoretest_30.03                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://extranet-sd.qvantel.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    UKRUAT2-25761 Turbo button.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UATEST2-3038">
+                     <strike>UATEST2-3038</strike>                 </a>
+            </td>
+            <td>
+                FUP is not triggering 
+            </td>
+            <td>
+                C02 - Closed
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-36621">
+                     <strike>UKRUAT2-36621</strike>                 </a>
+            </td>
+            <td>
+                Data usage is not updated in Usage an...
+            </td>
+            <td>
+                C02 - Closed
+            </td>
+        </tr>
+                                                <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Defect</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                Has Defect
+            </td>
+            <td>
+                <a href="https://extranet-sd.qvantel.com/browse/UKRUAT2-39398">
+                     <strike>UKRUAT2-39398</strike>                 </a>
+            </td>
+            <td>
+                The data speed to low
+            </td>
+            <td>
+                C02 - Closed
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>TC Status:</b></td>
+                <td id="customfield_11258-2777968-value" class="value" bgcolor="#ffffff" width="80%">  <div style="color:#FFFFFF;
+          background-color:#6693B0;
+          
+          -moz-border-radius:.4em;
+          -webkit-border-radius:.4em;
+          text-align:center;
+          font-size:12px;
+          font-weight:700;
+          display:inline-block;
+          padding-top:1px;
+          padding-bottom:1px;
+          border-radius:.4em;
+          width:100px;">Passed</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_13852-2777968-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.steps');</script>
+
+    
+                    
+
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 4</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                        <th>Status</th>
+                    </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>1.  Select add-on in MK/Fleet Mmgmnt</p></td>
+                                            <td></td>
+                                            <td><p>1. Add-on "Turbo button" is activated successfully</p></td>
+                                                                <td style="text-align: center">Pass</td>
+                                                </tr>
+                                                                            <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>2. Check balance on Consumption and Fin tabs in CSRTb</p></td>
+                                            <td></td>
+                                            <td><p>2.  Notification about activation received successfully on handset and displayed on Notifications tab</p></td>
+                                                                <td style="text-align: center">Pass</td>
+                                                </tr>
+                                                                            <tr>
+                <td>
+                                            3
+                                    </td>
+                                                            <td><p>3. Check notification about activation addon on handset and Notifications tab </p></td>
+                                            <td></td>
+                                            <td><p>3. Charged 10 UAH</p>
+</td>
+                                                                <td style="text-align: center">Pass</td>
+                                                </tr>
+                                                                            <tr>
+                <td>
+                                            4
+                                    </td>
+                                                            <td></td>
+                                            <td></td>
+                                            <td><p>4. Data no speed limit,  remainder of MB is reflected<br/>
+5. Service is valid until 23:59:59 of the calendar day. </p></td>
+                                                                <td style="text-align: center">Pass</td>
+                                                </tr>
+                                                            <tr>
+                    <td></td>
+                                        <td colspan="4">Defects:
+                                                    UKRUAT2-39398
+                                            </td>
+                </tr>
+                                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Product Segment:</b></td>
+                <td id="customfield_13565-2777968-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_13565-field">
+        							<span>B2B</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Product Type:</b></td>
+                <td id="customfield_15891-2777968-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_15891-field">
+        							<span>GSM Postpaid</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Channel:</b></td>
+                <td id="customfield_13267-2777968-value" class="value" bgcolor="#ffffff" width="80%">      MK/Fleet Mmgmnt
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_11260-2777968-value" class="value" bgcolor="#ffffff" width="80%">      1) B2B Rate Plan <br/>
+2) Test MK/Fleet Mmgmnt should work <br/>
+3) &quot;Personal service management&quot; is activated<br/>
+4) The subscriber has already used 40,000 MB (shape has come - speed is reduced).
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>BPO Name:</b></td>
+                <td id="customfield_16165-2777968-value" class="value" bgcolor="#ffffff" width="80%">      Smart Max+, Smart+, Smart Max
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Addon Name:</b></td>
+                <td id="customfield_16167-2777968-value" class="value" bgcolor="#ffffff" width="80%">      Turbo button
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_14750-2777968-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.preconditions');</script>
+
+    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1654585310485"
+                     data-preconditions-value="[]"
+                     data-issue-id="2777968"
+                     data-project-id="15547"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="14750"
+                     data-inline-edit-disabled="false"
+                     data-tms-required-resources="wrc!tms.customfield.preconditions"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps Progress:</b></td>
+                <td id="customfield_11452-2777968-value" class="value" bgcolor="#ffffff" width="80%">    
+    <table class="steps-color-status-bar" style="width:200px;" cellspacing="0" cellpadding="0" border="0" data-tooltip-statuses="Pass 4">
+        <tr>
+            <td style="padding:0px;">
+                <div style="margin:0px;background-color:transparent;float:none;width:200px;height:17px;padding:0px;display:inline;">
+                    <table cellspacing="0" cellpadding="0" style="border:none;height:17px;max-height:17px;width:200px;">
+                        <tr>
+                                                                                                                        <td class="status-progress"
+                                    style="padding:0px;height:17px;background-color:#51a825;width:100%;border-bottom-left-radius:5px;border-top-left-radius:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-top-left-radius:5px;border-bottom-right-radius:5px;border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-top-rigth-radius:5px;"
+                                    title="Pass - 4"></td>
+                                                                                    </tr>
+                    </table>
+                </div>
+            </td>
+            <td style="white-space:nowrap;padding-left:5px;vertical-align:left;">100%</td>
+        </tr>
+    </table>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>TP Status:</b></td>
+                <td id="customfield_11255-2777968-value" class="value" bgcolor="#ffffff" width="80%">  <div style="color:#FFFFFF;
+          background-color:#CCCCCC;
+          
+          -moz-border-radius:.4em;
+          -webkit-border-radius:.4em;
+          text-align:center;
+          font-size:12px;
+          font-weight:700;
+          display:inline-block;
+          padding-top:1px;
+          padding-bottom:1px;
+          border-radius:.4em;
+          width:100px;">Passed</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>TC Template:</b></td>
+                <td id="customfield_11253-2777968-value" class="value" bgcolor="#ffffff" width="80%"> <a title="Verify Turbo button activation via MK/Fleet Mmgmnt for Any B2B plan for subs with &quot;Personal Service management&quot;" href="https://extranet-sd.qvantel.com/browse/UKRUAT2-24994">UKRUAT2-24994</a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Verify Turbo button activation via MK/Fleet Mmgmnt for Any B2B plan for subs with "Personal Service management"</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-1811140"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="kyivstar_isergeev" id="word_commented_kyivstar_isergeev" href="https://extranet-sd.qvantel.com/secure/ViewProfile.jspa?name=kyivstar_isergeev">Illya Sergeev / Kyivstar</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">24/05/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1811140"><td bgcolor="#ffffff">
+            <p><em>Passed. 380981423711. 24.05.2022  <span class="image-wrap" style=""><img src="https://extranet-sd.qvantel.com/secure/attachment/785414/785414_UKRUAT2-25761+Turbo+button.jpg" style="border: 0px solid black" /></span> 10:34.”</em></p>
+        </td></tr>
+            </table>
+Generated at Tue Jun 07 10:01:50 EEST 2022 by Illya Sergeev / Kyivstar using Jira 8.20.8#820008-sha1:881997c1ee10089dd24f9500963434332e60bc5b.
+
+</body>
+</html>
